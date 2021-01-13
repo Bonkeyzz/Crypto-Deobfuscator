@@ -1,5 +1,5 @@
 # Crypto Deobfuscator
-Deobfuscator for Crypto Obfuscator ![](https://img.shields.io/github/v/tag/Rhotav/Crypto-Deobfuscator)![](https://img.shields.io/github/v/release/Rhotav/Crypto-Deobfuscator)
+Deobfuscator for Crypto Obfuscator !
 
 ## Features
 - Integer Decrypt
