@@ -209,11 +209,11 @@ namespace Crypto_Deobfuscator
         {
             JunkCleaner();
             entryCleaner();
-            Renamer();
             FuncIdentifier();
             StringDecoder();
             int32Decoder();
             floatDecoder();
+            Renamer();
             cctorCleaner();
 
 
@@ -229,7 +229,7 @@ namespace Crypto_Deobfuscator
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error while deleting..\n" + ex.Message, "Crypto Deobfuscator",MessageBoxButtons.OK,MessageBoxIcon.Error);
+               // MessageBox.Show("Error while deleting..\n" + ex.Message, "Crypto Deobfuscator",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
 
@@ -432,22 +432,32 @@ namespace Crypto_Deobfuscator
                         {
                             System.Reflection.BindingFlags eFlags = System.Reflection.BindingFlags.Static | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic;
                             Type classInstance = null;
-                            foreach (Type type1 in assembly.GetTypes()) {
-                                if (type1.Name == stringType)
+                            try
+                            {
+                                foreach (Type type1 in assembly.GetTypes())
                                 {
-                                    classInstance = type1;
-                                    break;
-                                }
-                                
-                            }
+                                    if (type1.Name == stringType)
+                                    {
+                                        classInstance = type1;
+                                        break;
+                                    }
 
-                            System.Reflection.MethodInfo myMethod = classInstance.GetMethod(stringMethod, eFlags);
-                            object[] arguments = { method.Body.Instructions[i - 1].Operand };
-                            string result = (string)myMethod.Invoke(null, arguments);
-                            method.Body.Instructions.RemoveAt(i);
-                            method.Body.Instructions[i - 1].OpCode = OpCodes.Ldstr;
-                            method.Body.Instructions[i - 1].Operand = result;
-                            decStrings++;
+                                }
+                                System.Reflection.MethodInfo myMethod = classInstance.GetMethod(stringMethod, eFlags);
+                                object[] arguments = { method.Body.Instructions[i - 1].Operand };
+                                if (myMethod != null)
+                                {
+                                    string result = (string)myMethod.Invoke(null, arguments);
+                                    method.Body.Instructions.RemoveAt(i);
+                                    method.Body.Instructions[i - 1].OpCode = OpCodes.Ldstr;
+                                    method.Body.Instructions[i - 1].Operand = result;
+                                }
+
+                                decStrings++;
+                            }
+                            catch (Exception e)
+                            {
+                            }
                         }
 
 

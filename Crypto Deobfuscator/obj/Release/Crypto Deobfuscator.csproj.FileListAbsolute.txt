@@ -8,3 +8,14 @@ C:\Users\root\source\repos\Crypto Deobfuscator\Crypto Deobfuscator\obj\Release\C
 C:\Users\root\source\repos\Crypto Deobfuscator\Crypto Deobfuscator\obj\Release\Crypto Deobfuscator.csproj.CopyComplete
 C:\Users\root\source\repos\Crypto Deobfuscator\Crypto Deobfuscator\obj\Release\Crypto Deobfuscator.exe
 C:\Users\root\source\repos\Crypto Deobfuscator\Crypto Deobfuscator\obj\Release\Crypto Deobfuscator.pdb
+C:\Users\bonke\source\repos\Crypto-Deobfuscator-master\Crypto Deobfuscator\bin\Release\Crypto Deobfuscator.exe.config
+C:\Users\bonke\source\repos\Crypto-Deobfuscator-master\Crypto Deobfuscator\bin\Release\Crypto Deobfuscator.exe
+C:\Users\bonke\source\repos\Crypto-Deobfuscator-master\Crypto Deobfuscator\bin\Release\Crypto Deobfuscator.pdb
+C:\Users\bonke\source\repos\Crypto-Deobfuscator-master\Crypto Deobfuscator\obj\Release\Crypto Deobfuscator.csprojAssemblyReference.cache
+C:\Users\bonke\source\repos\Crypto-Deobfuscator-master\Crypto Deobfuscator\obj\Release\Crypto_Deobfuscator.MainPage.resources
+C:\Users\bonke\source\repos\Crypto-Deobfuscator-master\Crypto Deobfuscator\obj\Release\Crypto_Deobfuscator.Properties.Resources.resources
+C:\Users\bonke\source\repos\Crypto-Deobfuscator-master\Crypto Deobfuscator\obj\Release\Crypto Deobfuscator.csproj.GenerateResource.cache
+C:\Users\bonke\source\repos\Crypto-Deobfuscator-master\Crypto Deobfuscator\obj\Release\Crypto Deobfuscator.csproj.CoreCompileInputs.cache
+C:\Users\bonke\source\repos\Crypto-Deobfuscator-master\Crypto Deobfuscator\obj\Release\Crypto Deobfuscator.csproj.CopyComplete
+C:\Users\bonke\source\repos\Crypto-Deobfuscator-master\Crypto Deobfuscator\obj\Release\Crypto Deobfuscator.exe
+C:\Users\bonke\source\repos\Crypto-Deobfuscator-master\Crypto Deobfuscator\obj\Release\Crypto Deobfuscator.pdb
