@@ -18,3 +18,5 @@ Deobfuscator for Crypto Obfuscator !
 
 #### After : 
 ![Screenshot_3](https://user-images.githubusercontent.com/54905232/79602094-8b8dfa00-80f2-11ea-8fd5-c6e8c379983f.png)
+
+**USE DE4DOT AFTER USING THIS FOR RENAMED VARIABLES, METHODS AND CLASSES TO HAVE THEIR ORIGINAL NAMES**
